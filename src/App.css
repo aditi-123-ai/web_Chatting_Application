@@ -1,0 +1,17 @@
+#root{
+    background: linear-gradient(to top, #0f0c1d, #1b1730);
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.app{
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: linear-gradient(to top, #0f0c1d, #1b1730);
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

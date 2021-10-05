@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.mainRight{
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.mainRight__header {
+    width: 100%;
+    height: 9vh;
+    background: linear-gradient(to left, #0f0c1d, #1b1730);
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.mainRight__inputArea{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainRight__messageArea{
+    width: 100%;
+    height: calc(100vh - 15vh - 1px);
+    background: #fff;
+    overflow-y: scroll;
+}
+
+.mainRight__messageArea img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    background-repeat: no-repeat;
+}
+
+.mainRight__header--profile{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.mainRight__header--details{
+    font-size: 0.8rem;
+}
+
+.mainRight__header--share{
+    position: absolute;
+    right: 30px;
+    top: 23px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 14%;
+    flex-direction: row-reverse;
+}
+
+.mainRight__inputContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, #0f0c1d, #1b1730);
+}
+
+.mainRight__inputContainer input {
+    width: 95%;
+    height: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 1rem;
+    background-color: transparent;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.messageBox{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.messageBox__myMsg{
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+
+.messageBox__avatar{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.messageBox__myMsg .messageBox__avatar{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.messageBox__myMsg .messageBox__message {
+    border-radius: 20px 20px 3px 20px;
+    background-color: #1a13469c;
+}
+
+.messageBox__message{
+    background-color: #1b173071;
+    padding: 10px;
+    border-radius: 20px 20px 20px 3px;
+    max-width: 35vw;
+    width: auto;
+    min-width: 25vw;
+}
+
+.messageBox__message--owner p {
+    font-weight: 600;
+}
+
+.messageBox__message--owner {
+    margin-bottom: 10px;
+}
+
+.messageBox__message--time{
+    font-weight: bold;
+    float: right;
+    margin-top: 20px;
+}
+
+.messageNotification{
+    justify-content: center;
+}
+
+.messageNotification h1{
+    font-size: 0.8rem;
+    background-color: #1b1730;
+    color: #fff;
+    padding: 7px;
+    border-radius: 50px;
+}
+
+.mainRight__header--share button{
+    background-color: red;
+    padding: 7px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+}
